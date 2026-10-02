@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "records": [
+    {
+      "source_id": "S-N001",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-09-20T17:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "note_id": "N001",
+      "author_id": "ADV001",
+      "content": "Jordan confirmed a preference for email when scheduling appointments."
+    },
+    {
+      "source_id": "S-N002",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-09-30T17:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "note_id": "N002",
+      "author_id": "ADV001",
+      "content": "A staff note lists phone as the scheduling preference, but does not document confirmation from Jordan. Verify the preferred scheduling channel before relying on it."
+    },
+    {
+      "source_id": "S-N003",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-10-01T17:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "note_id": "N003",
+      "author_id": "ADV001",
+      "content": "Advisor ADV001 promised Jordan a callback on October 5, 2026 to discuss outstanding account paperwork. The callback remains open. No time of day was recorded.",
+      "recorded_commitment": {
+        "description": "Call Jordan to discuss outstanding account paperwork",
+        "owner_id": "ADV001",
+        "due_date": "2026-10-05",
+        "due_time": null,
+        "status": "open"
+      }
+    },
+    {
+      "source_id": "S-N004",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-10-01T19:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "note_id": "N004",
+      "author_id": "ADV001",
+      "content": "Jordan asked that written messages stay brief and not mention personal circumstances such as family changes."
+    }
+  ]
+}

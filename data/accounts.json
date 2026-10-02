@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "records": [
+    {
+      "source_id": "S-A101",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "account_id": "A101",
+      "account_type": "synthetic_demo_account",
+      "owner_refs": [
+        "P001"
+      ],
+      "contact_fields": {
+        "mailing_address": {
+          "line1": "10 Pine Street",
+          "city": "Example City",
+          "state": "CA",
+          "postal_code": "90001",
+          "country": "US"
+        }
+      },
+      "beneficiary_entries": [],
+      "connection_status": "available",
+      "balance_usd": 182400
+    },
+    {
+      "source_id": "S-A102",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "account_id": "A102",
+      "account_type": "synthetic_demo_account",
+      "owner_refs": [
+        "P001"
+      ],
+      "contact_fields": {
+        "mailing_address": {
+          "line1": "25 Oak Avenue",
+          "city": "Example City",
+          "state": "CA",
+          "postal_code": "90001",
+          "country": "US"
+        }
+      },
+      "beneficiary_entries": [
+        {
+          "person_id": "P002",
+          "display_name": "Taylor Morgan",
+          "allocation_percent": 100,
+          "designation": "primary"
+        }
+      ],
+      "connection_status": "available",
+      "balance_usd": 96750
+    },
+    {
+      "source_id": "S-A103",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "account_id": "A103",
+      "account_type": "synthetic_demo_account",
+      "owner_refs": [
+        "P001"
+      ],
+      "contact_fields": {
+        "mailing_address": {
+          "line1": "25 Oak Avenue",
+          "city": "Example City",
+          "state": "CA",
+          "postal_code": "90001",
+          "country": "US"
+        }
+      },
+      "beneficiary_entries": [],
+      "connection_status": "available",
+      "balance_usd": 41200
+    },
+    {
+      "source_id": "S-A201",
+      "client_id": "C002",
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "account_id": "A201",
+      "account_type": "synthetic_demo_account",
+      "owner_refs": [
+        "P003"
+      ],
+      "contact_fields": {
+        "mailing_address": {
+          "line1": "10 Pine Street",
+          "city": "Example City",
+          "state": "CA",
+          "postal_code": "90001",
+          "country": "US"
+        }
+      },
+      "beneficiary_entries": [],
+      "connection_status": "available",
+      "balance_usd": 58300
+    }
+  ]
+}

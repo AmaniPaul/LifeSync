@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "records": [
+    {
+      "source_id": "S-H001",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "request_id": "HR001",
+      "from_advisor_id": "ADV001",
+      "to_advisor_id": "ADV002",
+      "effective_date": "2026-10-15",
+      "status": "pending",
+      "authorized_client_ids": [
+        "C001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "records": [
+    {
+      "source_id": "S-E001",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "event_id": "E001",
+      "event_type": "divorce",
+      "event_date": "2026-09-25",
+      "affected_person_id": "P001",
+      "related_person_id": "P002",
+      "confirmation_status": "confirmed",
+      "confirmed_by": "ADV001",
+      "confirmed_at": "2026-10-02T18:00:00Z",
+      "confirmation_evidence": "Synthetic advisor note: Jordan confirmed divorce from Taylor on September 25, 2026.",
+      "client_instructions": [
+        {
+          "source_id": "S-I001",
+          "client_id": "C001",
+          "source_version": 1,
+          "recorded_at": "2026-10-02T18:00:00Z",
+          "refreshed_at": "2026-10-02T18:00:00Z",
+          "instruction_id": "I001",
+          "account_id": "A101",
+          "field": "contact_fields.mailing_address",
+          "action": "replace",
+          "confirmed_new_value": {
+            "line1": "25 Oak Avenue",
+            "city": "Example City",
+            "state": "CA",
+            "postal_code": "90001",
+            "country": "US"
+          },
+          "confirmed_by": "ADV001",
+          "confirmed_at": "2026-10-02T18:00:00Z",
+          "content": "Synthetic client instruction: change the mailing address on A101 to 25 Oak Avenue, Example City, CA 90001, US."
+        }
+      ]
+    },
+    {
+      "source_id": "S-E002",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "event_id": "E002",
+      "event_type": "planned_retirement",
+      "event_date": "2027-06-30",
+      "affected_person_id": "P001",
+      "related_person_id": null,
+      "confirmation_status": "confirmed",
+      "confirmed_by": "ADV001",
+      "confirmed_at": "2026-10-02T18:00:00Z",
+      "confirmation_evidence": "Synthetic advisor note: Jordan confirmed a target retirement date of June 30, 2027.",
+      "client_instructions": []
+    }
+  ]
+}

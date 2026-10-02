@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "records": [
+    {
+      "source_id": "S-V001",
+      "client_id": null,
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "advisor_id": "ADV001",
+      "display_name": "Richard Bell",
+      "role": "outgoing_advisor",
+      "status": "retiring"
+    },
+    {
+      "source_id": "S-V002",
+      "client_id": null,
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "advisor_id": "ADV002",
+      "display_name": "Sofia Reyes",
+      "role": "incoming_advisor",
+      "status": "active"
+    },
+    {
+      "source_id": "S-V003",
+      "client_id": null,
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "advisor_id": "ADV003",
+      "display_name": "Dana Whitfield",
+      "role": "advisor",
+      "status": "active"
+    }
+  ]
+}

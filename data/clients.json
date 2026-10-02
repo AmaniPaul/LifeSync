@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "records": [
+    {
+      "source_id": "S-C001",
+      "client_id": "C001",
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "display_name": "Jordan Morgan",
+      "person_id": "P001",
+      "household_id": "H001",
+      "assigned_advisor_id": "ADV001",
+      "related_people": [
+        {
+          "person_id": "P002",
+          "display_name": "Taylor Morgan",
+          "relationship": "former_spouse"
+        }
+      ],
+      "date_of_birth": "1961-12-04"
+    },
+    {
+      "source_id": "S-C002",
+      "client_id": "C002",
+      "source_version": 1,
+      "recorded_at": "2026-10-02T18:00:00Z",
+      "refreshed_at": "2026-10-02T18:00:00Z",
+      "display_name": "Casey Rivera",
+      "person_id": "P003",
+      "household_id": "H002",
+      "assigned_advisor_id": "ADV003",
+      "related_people": [],
+      "date_of_birth": "1988-03-14"
+    }
+  ]
+}
